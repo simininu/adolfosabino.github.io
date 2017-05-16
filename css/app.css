@@ -1,0 +1,127 @@
+body {
+  background-color: #FFF;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000;
+}
+a:hover {
+  color: #000;
+}
+
+.border-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 13px;
+  background: #000;
+  z-index: 999;
+}
+.border-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 13px;
+  background: #000;
+  z-index: 999;
+}
+.border-right {
+  position: fixed;
+  right: 0;
+  width: 13px;
+  height: 100%;
+  background: #000;
+  z-index: 999;
+}
+.border-left {
+  position: fixed;
+  left: 0;
+  width: 13px;
+  height: 100%;
+  background: #000;
+  z-index: 999;
+}
+
+.row {
+  max-width: 80rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #;
+  width: 100%;
+  z-index: 9999;
+  padding: 35px 40px;
+
+}
+
+header .h-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #000;
+  text-decoration: none;
+  float: left;
+}
+
+nav {
+  float:right;
+  width: auto;
+  position: relative;
+  padding-top: 5px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+nav li a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+nav li a:hover {
+  text-decoration: line-through;
+  color: #000;
+}
+main {
+  width: 100%;
+  padding: 160px 40px 0 40px;
+
+}
+main .m-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.headline {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 81px;
+  letter-spacing: -1.3px;
+  color: #FFF;
+  float: left;
+  width: 710px;
+  position: relative;
+  color: #000;
+}
+.feather {
+  position: relative;
+  float: right;
+  right: 80px;
+  top: 10px;
+}

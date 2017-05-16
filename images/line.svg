@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="11px" viewBox="0 0 62 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="HOME-COLOR0" transform="translate(-530.000000, -1132.000000)" stroke-width="3" stroke="#FFFFFF">
+            <g id="about" transform="translate(0.000000, 689.000000)">
+                <polyline id="Line" points="589.734071 447 583 452 576 446 569 452 561 446 554 452 547 446 540 452 533 446"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

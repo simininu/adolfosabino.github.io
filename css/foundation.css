@@ -15,7 +15,7 @@
      *    IE on Windows Phone and in iOS.
      */
 html {
-  font-family: sans-serif;
+  font-family: 'Raleway', Helvetica, sans-serif;
   /* 1 */
   line-height: 1.15;
   /* 2 */
@@ -539,7 +539,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Raleway', Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: inherit;

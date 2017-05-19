@@ -7,10 +7,18 @@ $(function(){
       if((scroll_pos > 630) && (scroll_pos < 1460)) {
           $(".logo").css('color', '#FFF');
           $("nav li a").css('color', '#FFF');
+          $("nav li:first-child").css('text-decoration', 'line-through');
       } else {
           $(".logo").css('color', '#000');
           $("nav li a").css('color', '#000');
+          $("nav li:first-child").css('text-decoration', 'none');
       }
+      if((scroll_pos > 1460)) {
+          $("nav li:last-child").css('text-decoration', 'line-through');
+      } else {
+          $("nav li:last-child").css('text-decoration', 'none');
+      }
+
   });
 });
 
@@ -37,12 +45,10 @@ $(function(e){
 		'#000', // Gray
 		'#000', // Green
 		'#fff', // Black
-	],
-	about = $('.about-home');
+	];
 
 $('.change-color').click(function(e){
 
-	//var n = Math.floor((Math.random() * 8) + 1);
 	var n = $(this).data('color-num');
 
 	if(n > (bgs.length-1)){
@@ -53,14 +59,14 @@ $('.change-color').click(function(e){
   	$('.about-txt').css({ 'color': (txt[n]) });
   	n = n+1;
   	$(this).data('color-num',n);
-  	
-  	if(bgs == '#000') {
+  	console.log(bgs[n]);
+  	if(bgs[n] == '#000') {
         $('.soft-skills-w').css('display', 'block');
         $('.soft-skills-b').css('display', 'none');
     } else {
         $('.soft-skills-w').css('display', 'none');
         $('.soft-skills-b').css('display', 'block');
-      }
+    }
   });
 });
 

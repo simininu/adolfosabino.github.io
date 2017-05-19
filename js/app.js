@@ -4,7 +4,7 @@ $(function(){
   var scroll_pos = 0;
   $(document).scroll(function() {
       scroll_pos = $(this).scrollTop();
-      if((scroll_pos > 625) && (scroll_pos < 1450)) {
+      if((scroll_pos > 630) && (scroll_pos < 1460)) {
           $(".logo").css('color', '#FFF');
           $("nav li a").css('color', '#FFF');
       } else {
@@ -49,7 +49,7 @@ $('.change-color').click(function(e){
 		n = 0;
   	}
     $('.change-color').css({ 'color': (bgs[n]) });
-  	$('.about-bg').css({ 'background-color': (bgs[n]) });
+  	$('.about').css({ 'background-color': (bgs[n]) });
   	$('.about-txt').css({ 'color': (txt[n]) });
   	n = n+1;
   	$(this).data('color-num',n);

@@ -60,7 +60,7 @@ $('.change-color').click(function(e){
   	n = n+1;
   	$(this).data('color-num',n);
   	console.log(bgs[n]);
-  	if(bgs[n] == '#000') {
+  	if(bgs[n] == undefined) {
         $('.soft-skills-w').css('display', 'block');
         $('.soft-skills-b').css('display', 'none');
     } else {
@@ -69,6 +69,28 @@ $('.change-color').click(function(e){
     }
   });
 });
+
+function scrollToAnchor(anchor_class){
+    var aTag = $("."+anchor_class+"");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+$(".nav-about").click(function() {
+   scrollToAnchor('about');
+});
+
+$(".arrow").click(function() {
+   scrollToAnchor('about');
+});
+
+$(".nav-work").click(function() {
+   scrollToAnchor('selected-works');
+});
+
+$(".arrow-up").click(function() {
+   scrollToAnchor('intro');
+});
+
 
 
 

@@ -92,5 +92,27 @@ $(".arrow-up").click(function() {
 });
 
 
-
-
+$.fn.mousetip = function(tip, x, y) {
+    
+    var $this = $(this);
+    
+    $this.hover(function() {
+        
+        $(tip, this).show();
+    
+    }, function() {
+    
+        $(tip, this).hide().removeAttr('style');
+    
+    }).mousemove(function(e) {
+        
+        var mouseX = e.pageX + (x || 10);
+        var mouseY = e.pageY + (y || 10);
+    
+        $(tip, this).show().css({
+            
+            top:mouseY, left:mouseX
+            
+        });
+    });
+};

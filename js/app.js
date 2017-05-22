@@ -29,21 +29,23 @@ $(function() {
 $(function(e){
 	var bgs = [
 		'#00aff4', // Blue
+    '#F60C0C', // Red
+    '#64bc35', // Green
 		'#6852aa', // Purple
 		'#ff8f00', // Orange
-		'#ff004b', // Pink
 		'#FFDD00', // Yellow
+    '#ff004b', // Pink
 		'#818181', // Gray
-		'#64bc35', // Green
 		'#000',    // Black
 	], txt = [
 		'#000', // Blue
+    '#000', // Red
+    '#000', // Green
 		'#000', // Purple
 		'#000', // Orange
+    '#000', // Yellow
 		'#000', // Pink
-		'#000', // Yellow
 		'#000', // Gray
-		'#000', // Green
 		'#fff', // Black
 	];
 

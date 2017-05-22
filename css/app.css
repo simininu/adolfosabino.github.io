@@ -329,11 +329,30 @@ footer ul {
   display: block;
   margin-top: 5px;
 }
+.contacts ul {
+  color: #fff;
+  display: block;
+  margin-top: 10px;
+}
 .arrow-up {
   display: block;
   position: relative;
   top: 50px;
 }
+
+li a .fa-envelope {
+  font-size: 25px;
+}
+li a .fa-behance {
+  font-size: 23px;
+}
+li a .fa-linkedin-square {
+  font-size: 29px;
+}
+li a .fa-twitter {
+  font-size: 27px;
+}
+
 
 /* MEDIA QUERY 330px LESS #############################*/
 
@@ -456,7 +475,16 @@ footer ul {
     display: block;
     width: 35px;
     height: 35px;
-  }
+    color: #fff;
+    padding: 0;
+    transition: padding .3s;
+   }
+
+   .social-media li a:hover {
+    padding: 0 5px 0 0;
+    transition: padding .3s;
+   }
+
   .soft-skills {
     margin: 76px 0 0 50px;
   }

@@ -37,7 +37,7 @@ function checkSize(){
         var scroll_pos = 0;
         $(document).scroll(function() {
             scroll_pos = $(this).scrollTop();
-            if((scroll_pos > 385) && (scroll_pos < 1180)) {
+            if((scroll_pos > 385) && (scroll_pos < 1190)) {
                 $(".logo").css('color', '#FFF');
                 $("nav li a").css('color', '#FFF');
                 $("nav li:first-child").css('text-decoration', 'line-through');
@@ -61,6 +61,7 @@ function checkSize(){
 
 $(function() {
   $('strong').mousetip('.tip', -80, -140);
+  $('.feather-div').mousetip('.tip2', -330, -270);
 })
 
 $(function(e){
@@ -71,7 +72,7 @@ $(function(e){
 		'#6852aa', // Purple
 		'#ff8f00', // Orange
 		'#FFDD00', // Yellow
-    '#ff004b', // Pink
+    '#ff0080', // Pink
 		'#818181', // Gray
 		'#000',    // Black
 	], txt = [

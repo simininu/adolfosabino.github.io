@@ -133,6 +133,9 @@ nav li a:hover {
   text-align: center;
   border-radius: 0 10px 10px 10px;
 }
+.tip2 {
+    display: none;
+}
 .feather {
   display: none;
 }
@@ -427,6 +430,22 @@ li a .fa-twitter {
     width: 235px;
     border-radius: 0 15px 15px 15px;
   }
+  .tip2 {
+    position: absolute;
+    z-index: 99999;
+    display: none;
+    padding: 15px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 23px;
+    width: 240px;
+    text-align: center;
+    border-radius: 15px 15px 0 15px;
+  }
+
   .feather {
     position: relative;
     float: right;
